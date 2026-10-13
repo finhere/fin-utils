@@ -1,0 +1,15 @@
+{
+    "name": "cgalileo/websec-utils",
+    "description": "Small dependency-free PHP helpers for routine web-application input hygiene.",
+    "type": "library",
+    "keywords": ["security", "input", "sanitizer", "validation", "php", "utility"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "WebsecUtils\\": "src/"
+        }
+    }
+}
